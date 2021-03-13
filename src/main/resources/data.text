@@ -1,0 +1,14 @@
+
+    INSERT INTO candidate (name) Values ('Kenan Cosic');
+    INSERT INTO candidate (name) Values ('Abel Tesfaye');
+    INSERT INTO candidate (name) Values ('Lucky Luke');
+    INSERT INTO candidate (name) Values ('Mario');
+    INSERT INTO candidate (name) Values ('Luigi');
+
+    INSERT INTO job (position) ('DevOps');
+    INSERT INTO job (position) ('Frontend');
+    INSERT INTO job (position) ('Backend');
+    INSERT INTO job (position) ('Fullstack');
+    INSERT INTO job (position) ('DevSec');
+    INSERT INTO job (position) ('Data Engineer');
+    INSERT INTO job (position) ('QA');
