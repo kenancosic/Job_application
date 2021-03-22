@@ -36,5 +36,12 @@ public class SkillsService {
        return null;
     }
 
+    public void deleteSkill(Long id){
+        skillsRepository.deleteSkillsById(id);
+    }
+
+    public Skills updateSkills(Skills skills){
+        return skillsRepository.save(skills);
+    }
 
 }

@@ -12,4 +12,7 @@ public interface CandidateRepository extends JpaRepository<Candidate,Long> {
 
     Optional<Candidate> findCandidateByName(String name);
 
+    void deleteCandidateById(Long id);
+
+    Optional<Candidate> findCandidateById(Long id);
 }

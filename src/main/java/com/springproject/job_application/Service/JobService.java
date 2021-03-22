@@ -20,4 +20,12 @@ public class JobService {
 
     public Job addJob (Job job) { return job; }
 
+    public Job updateJob(Job job){
+        return jobRepository.save(job);
+    }
+
+    public void deleteJob(Long id){
+        jobRepository.deleteJobById(id);
+    }
+
 }

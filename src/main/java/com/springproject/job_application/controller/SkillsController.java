@@ -2,6 +2,7 @@ package com.springproject.job_application.controller;
 
 import com.springproject.job_application.Service.SkillsService;
 import com.springproject.job_application.domain.Skills;
+import com.springproject.job_application.repository.SkillsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -29,6 +30,11 @@ public class SkillsController {
     @GetMapping("/custom/{id}")
     public Skills dohvatiPoId(@PathVariable Long id){
         return this.skillsService.dohvatiPoId(id);
+    }
+
+    @GetMapping("/delete/{id}")
+    public Skills deleteSkillById(@PathVariable Long id){
+        return null;
     }
 
 }
